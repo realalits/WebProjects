@@ -1,2 +1,2 @@
 # WebProjects
-it contain all web project from real time editor.
+it contain all web projects from real time editor.
