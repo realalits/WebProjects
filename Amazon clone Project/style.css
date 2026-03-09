@@ -1,0 +1,1555 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+  
+}
+/*-----------------------------------------------------------------------------*/
+
+/* navigation bar  style created*/
+.nav-bar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+/* navigation bar logo  div style created*/
+.nav-logo{
+   
+    height: 50px;
+    width: 128px;
+
+}
+ /* navigation bar img tag logo style created*/
+.logo{
+    padding: 5px 0px 0px 0px;
+    height: 45px;
+    width:118px;   
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/* navigation bar location style created*/
+
+/* navigation bar india location word style created*/
+.India-text{
+   
+    font-size: 14px;
+    font-weight: bold;
+}
+/* navigation bar deliverd to word text style created*/
+.deliverd-text{
+    padding-left: 16px;
+    color: #cccccc;
+    font-size:12px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/* all over border and hover class style created*/
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+/* navigation class of div to be created for search bar*/
+.nav-search{
+    
+    display: flex;
+    background-color:rgb(255, 191, 0);
+    width: 900px;
+    height: 39px;
+    border-radius: 4px;
+    justify-content: space-evenly; /*manage equal space between content */
+}
+
+/* hover effect in search bar*/
+.nav-search:hover {
+    border: 3px solid  rgb(255, 191, 0);
+}
+
+
+/* select bar style for search bar*/
+.select-bar{
+    color: #515151;
+    padding-left: 11px;
+    width: 50px;
+    background-color: #e2e2e2;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border: none;
+}
+
+/*  input type style*/
+.search-input{
+    color: #515151;
+    width: 100%;
+    font-size: 15px;
+    border: none; /* use for remove border */
+}
+
+/* remove outline form input field*/
+input:focus {
+    outline: none;
+}
+
+/* search icon from font awesome style*/
+.search-icon{
+    width: 50px;
+    display:flex;
+    justify-content: center;/* use for align horizontally*/
+    align-items: center;  
+    color: black;
+    font-size: 1.3rem;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.hello-font{
+    font-size: 12px;
+    color:white;
+}
+ 
+.account-font{
+    font-size: 14px;
+    font-weight: bold;
+}
+/*-----------------------------------------------------------------------------*/
+.nav-cart i{
+font-size: 30px;
+}
+/*-----------------------------nav bar end----------------------------------------*/
+
+
+/* main panel bar*/
+.panel-bar{
+background-color: #0c3048;
+height: 39px;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+
+/* menu content of panel bar*/
+.panel-content{
+display: flex;
+align-items: center;
+font-size: 14px;
+width: 95%;
+justify-content: space-evenly;
+}
+
+/* empty area in panel bar*/
+.penel-empty{
+ width: 40%;
+}
+/* icon in panel bar*/
+.panel-icon{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*----------------------------------panel end------------------------------------------------------*/
+
+/*   body properties*/
+body{
+    background-color: rgb(229, 233, 234);
+    height:3200px ;
+    width: 100%;
+    justify-content: center;  
+   
+}
+
+/*---------------------------------------body property end-------------------------------------------------*/
+/* double div class */
+.superhero-section{
+display: flex;
+justify-content: center;
+}
+/*  hero image section*/
+.hero-section{
+    margin-top: 18px;
+    background-size: cover;
+    height: 250px;
+    width:97.5%;
+}
+
+/*-------------------------------------hero section end---------------------------------------------------*/   
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.singlecard-content-style{
+    font-size: 21px; font-weight:bold;
+}
+
+
+  
+.card-linktext-style{
+    color: #007185; font-size: 14px; text-decoration: none;
+}
+
+
+.card{
+    margin-top: 18px;
+    background-color: white;
+    height: 400px;
+    width: 23.5%;   
+}
+/*-------------------------------------card creation end---------------------------------------------------*/ 
+
+.card-headtext{
+    height: 40px;
+    width: 90%; 
+    margin-top: 10px;
+    align-items: center;
+    }
+
+.singlecard-image{
+    height: 300px; 
+    width: 92%; 
+    margin-top: 10px;
+}
+
+.card-linktext{
+    height: 40px;
+    width: 90%; 
+    display: flex;
+    align-items: center;
+
+}
+ /*-------------------------------------card inner style creation end---------------------------------------------------*/ 
+ .singlecard-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+/*-------------------------------------single card type style end--------------------------------------------------*/ 
+
+.quardcard-image{
+    height: 115px;
+    width: 44%;
+    margin-top: 10px;
+}
+
+
+.quardcard-text{
+    width: 44%;
+    margin-bottom:5px;
+    margin-top: 5px;
+    text-align: left;
+}
+ 
+.quardcard-linktext{
+height: 40px;
+width: 92%; 
+display: flex;
+align-items: center;
+
+}
+
+
+ /*-----------class of set image as parllel in quardcard image------------------------------------------*/
+ .column {
+    float: left;
+    width: 46%;
+    padding: 0px 7px 0px 7px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+
+
+/*------------------------------------quard card type style end--------------------------------------------------*/ 
+
+.one-card{
+    margin-top: 18px;
+    background-color: white;
+    height: 300px;
+    width: 97.5%;  
+}
+
+.onecard-image{
+    height:200px;
+    width:15%;
+    display: flex;
+    align-items: flex-end;
+  
+   
+}
+.onecard-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.onecard-headtext{
+    height: 50px;
+    width: 97.5%; 
+    display: flex;
+    align-items: center;
+}
+
+/*-----------one card image size in parllel(onecard 1 gym things)------------------------------------------*/
+
+.columnone {
+    float:left;
+    width: 15%;
+    padding: 0px 20px 0px 20px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowone::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+/*-----------one card image size in parllel(onecard 2 mobile)------------------------------------------*/
+
+.columntwo {
+    float:left;
+    width: 10%;
+    padding: 0px 28px 0px 28px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowtwo::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+/*-----------one card image size in parllel(onecard 2 creatuive things)------------------------------------------*/
+
+  .columnthree {
+    float:left;
+    width: 15%;
+    padding: 0px 0px 0px 20px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowthree::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+
+/*------------------------------------one card style end--------------------------------------------------------*/ 
+.offer-label{
+    color: #ffffff; 
+    font-size: 14px; 
+    text-decoration: none; 
+    border: 4px solid rgb(228, 11, 11); 
+    background-color: rgb(228, 11, 11);
+    border-radius: 2px;    
+}
+/*------------------------------------offer lable style end--------------------------------------------------------*/ 
+
+
+.ads-seciton{
+    margin-top: 18px;
+    display: flex;
+justify-content: center;
+}
+.minitv{
+height: 250px;
+width: 970px;
+}
+
+/*-----------------------------------ads section-----------------------------------------------------------------*/
+
+
+.upper-footer{
+    margin-top: 18px;
+    height: 50px;
+    color: white;
+    width: 100%;
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 73, 80);
+}
+/*-----------------------------------upper footer end-----------------------------------------------------------------*/
+
+.lowerfooter-headtext{
+    font-weight:bold;
+    color: white;
+    font-size: 15px;
+
+}
+/*-----------------------------------lowerfooter-headtext end-----------------------------------------------------------------*/
+
+.lower-footer{
+
+    padding-top: 50px;
+    height: 300px;
+    width: 100%;
+    font-size: 14px;
+    color: #dddddd;
+    background-color: #232f3E;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/*-----------------------------------lower footer end-----------------------------------------------------------------*/
+.footer-link{
+   padding-top: 10px;
+}
+/*-----------------------------------footer links end-----------------------------------------------------------------*/
+
+.downlower-footer{
+    height: 60px;
+    width: 100%;
+    background-color: #232f3E;
+    border-top: 1px solid #445457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------------------downn lower footer end-----------------------------------------------------------------*/
+.downfooter-logo{
+    height: 40px;
+    width: 100px;
+}
+/*-----------------------------------down amazon end-----------------------------------------------------------------*/
+.footer-country{
+    color:#dddddd; 
+    font-size: 12px; 
+    word-spacing: 10px;    
+}
+
+/*-----------------------------------footer country end-----------------------------------------------------------------*/
+
+.lastlower-footer{
+   
+    height:120px;
+    color: #dddddd;
+    width: 100%;
+    font-size: 12px;
+    background-color: #131a22;
+    align-items: center;
+
+}
+/*-----------------------------------lastlower-footer end-----------------------------------------------------------------*/
+
+.lastlowerfooter-text{
+    padding-top: 50px;
+    text-align: center;
+  
+}
+
+/*----------------------------------last lower footer-text end-----------------------------------------------------------------*/
+
+
+
+
+/* class of write  text on image on absolute position*/
+.container {
+    position: relative;
+
+  }
+
+  .top-left {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+  }
+
+  .bottom-left{
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+
+  }
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px){
+
+
+    /* navigation bar  style created*/
+    .nav-bar{
+        height: 60px;
+        background-color: #0f1111;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+       
+    }
+    /* navigation bar logo  div style created*/
+    .nav-logo{
+       
+        height: 45px;
+        width: 118px;
+    
+    }
+     /* navigation bar img tag logo style created*/
+    .logo{
+        padding: 5px 0px 0px 0px;
+        height: 45px;
+        width:118px;   
+    }
+    
+    /*-----------------------------------------------------------------------------*/
+    
+    /*-----------------------------------------------------------------------------*/
+    
+    
+    /* navigation bar location style created*/
+    
+    /* navigation bar india location word style created*/
+    .India-text{
+       
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /* navigation bar deliverd to word text style created*/
+    .deliverd-text{
+        padding-left: 14px;
+        color: #cccccc;
+        font-size:10px;
+    }
+    
+    /*-----------------------------------------------------------------------------*/
+    
+    /* all over border and hover class style created*/
+    .border:hover{
+        border: 1px solid white;
+        border-radius: 2px;
+    }
+    
+    /*-----------------------------------------------------------------------------*/
+    
+    /* navigation class of div to be created for search bar*/
+    .nav-search{
+        
+        display: flex;
+        background-color:rgb(255, 191, 0);
+        width: 500px;
+        height: 38px;
+        border-radius: 4px;
+        justify-content: space-evenly; /*manage equal space between content */
+    }
+    
+    /* hover effect in search bar*/
+    .nav-search:hover {
+        border: 3px solid  rgb(255, 191, 0);
+    }
+    
+    
+    /* select bar style for search bar*/
+    .select-bar{
+        color: #515151;
+        padding-left: 11px;
+        width: 50px;
+        background-color: #e2e2e2;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius:4px;
+        border: none;
+    }
+    
+    /*  input type style*/
+    .search-input{
+        color: #515151;
+        width: 100%;
+        font-size: 14px;
+        border: none; /* use for remove border */
+    }
+    
+    /* remove outline form input field*/
+    input:focus {
+        outline: none;
+    }
+    
+    /* search icon from font awesome style*/
+    .search-icon{
+        width: 50px;
+        display:flex;
+        justify-content: center;/* use for align horizontally*/
+        align-items: center;  
+        color: black;
+        font-size: 1.25rem;
+        border: none;
+    }
+    
+    /*-----------------------------------------------------------------------------*/
+    
+    .hello-font{
+        font-size: 10px;
+        color:white;
+    }
+     
+    .account-font{
+        font-size: 12px;
+        font-weight: bold;
+    }
+    /*-----------------------------------------------------------------------------*/
+    .nav-cart i{
+    font-size: 25px;
+    }
+    /*-----------------------------nav bar end----------------------------------------*/
+    
+    
+    /* main panel bar*/
+    .panel-bar{
+        background-color: #0c3048;
+        height: 38px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+        
+        
+        /* menu content of panel bar*/
+        .panel-content{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        width: 95%;
+        justify-content: space-evenly;
+        }
+        
+        /* empty area in panel bar*/
+        .penel-empty{
+         width: 30%;
+        }
+        /* icon in panel bar*/
+        .panel-icon{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        
+        /*----------------------------------panel end------------------------------------------------------*/
+    
+        /*   body properties*/
+    body{
+        background-color: rgb(229, 233, 234);
+        height:3000px ;
+        width: 100%;
+        justify-content: center;  
+       
+    }
+    
+    /*---------------------------------------body property end-------------------------------------------------*/
+    /* double div class */
+    .superhero-section{
+    display: flex;
+    justify-content: center;
+    }
+    /*  hero image section*/
+    .hero-section{
+        margin-top: 18px;
+        background-size: cover;
+        height: 220px;
+        width:97.5%;
+    }
+    
+    /*-------------------------------------hero section end---------------------------------------------------*/   
+    
+    .shop-section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    
+    .singlecard-content-style{
+        font-size: 18px; font-weight:bold;
+    }
+    
+    
+      
+    .card-linktext-style{
+        color: #007185; font-size: 13px; text-decoration:none;
+    }
+    
+    
+    .card{
+        margin-top: 18px;
+        background-color: white;
+        height: 350px;
+        width: 23.5%;   
+    }
+    /*-------------------------------------card creation end---------------------------------------------------*/ 
+    .card-headtext{
+        height: 40px;
+        width: 90%; 
+        margin-top: 10px;
+        align-items: center;
+        }
+    
+    .singlecard-image{
+        height: 220px; 
+        width: 92%; 
+        margin-top: 10px;
+    }
+    
+    .card-linktext{
+        height: 40px;
+        width: 92%; 
+        display: flex;
+        align-items: center;
+    
+    }
+     /*-------------------------------------card inner style creation end---------------------------------------------------*/ 
+     
+     .singlecard-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    /*-------------------------------------single card type style end--------------------------------------------------*/ 
+    
+    .quardcard-image{
+        height: 90px;
+        width: 43%;
+        margin-top: 10px;
+    }
+    
+    
+    .quardcard-text{
+        width: 47%;
+        margin-bottom:5px;
+        margin-top: 5px;
+        text-align: left;
+    }
+     
+    .quardcard-linktext{
+    height: 40px;
+    width: 92%; 
+    display: flex;
+    align-items: center;
+    
+    }
+    
+    
+     /*-----------class of set image as parllel in quardcard image------------------------------------------*/
+     .column {
+        float: left;
+        width: 42%;
+        padding: 0px 7px 0px 7px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+       
+      }
+    
+    
+    /*------------------------------------quard card type style end--------------------------------------------------*/ 
+      
+    
+    .one-card{
+        margin-top: 18px;
+        background-color: white;
+        height: 280px;
+        width: 97.5%;  
+    }
+    
+    .onecard-image{
+        height:200px;
+        width:15%;
+        display: flex;
+        align-items: flex-end;
+      
+       
+    }
+    .onecard-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+    .onecard-headtext{
+        height: 50px;
+        width: 97.5%; 
+        display: flex;
+        align-items: center;
+    }
+    
+    /*-----------one card image size in parllel(onecard 1 gym things)------------------------------------------*/
+    
+    .columnone {
+        float:left;
+        width: 15%;
+        padding: 0px 20px 0px 20px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .rowone::after {
+        content: "";
+        clear: both;
+        display: table;  
+      }
+    /*-----------one card image size in parllel(onecard 2 mobile)------------------------------------------*/
+    
+    .columntwo {
+        float:left;
+        width: 16%;
+        padding: 0px 2px 0px 2px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .rowtwo::after {
+        content: "";
+        clear: both;
+        display: table;  
+      }
+    /*-----------one card image size in parllel(onecard 2 creatuive things)------------------------------------------*/
+    
+      .columnthree {
+        float:left;
+        width: 15%;
+        padding: 0px 0px 0px 10px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .rowthree::after {
+        content: "";
+        clear: both;
+        display: table;  
+      }
+    
+    
+    /*------------------------------------one card style end--------------------------------------------------------*/ 
+    .offer-label{
+        color: #ffffff; 
+        font-size: 12px; 
+        text-decoration: none; 
+        border: 3px solid rgb(228, 11, 11); 
+        background-color: rgb(228, 11, 11);
+        border-radius: 2px;    
+    }
+    /*------------------------------------offer lable style end--------------------------------------------------------*/ 
+    
+    
+    
+    .ads-seciton{
+        margin-top: 18px;
+        display: flex;
+    justify-content: center;
+    }
+    .minitv{
+    height: 220px;
+    width: 900px;
+    }
+    
+    /*-----------------------------------ads section-----------------------------------------------------------------*/
+    
+    
+    
+    .upper-footer{
+        margin-top: 1px;
+        height: 50px;
+        color: white;
+        width: 100%;
+        display: flex;
+        font-size: 13px;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(51, 73, 80);
+    }
+    /*-----------------------------------upper footer end-----------------------------------------------------------------*/
+    
+    .lowerfooter-headtext{
+        font-weight:bold;
+        color: white;
+        font-size: 14px;
+    
+    }
+    /*-----------------------------------lowerfooter-headtext end-----------------------------------------------------------------*/
+    
+    .lower-footer{
+    
+        padding-top: 50px;
+        height: 300px;
+        width: 100%;
+        font-size: 13px;
+        color: #dddddd;
+        background-color: #232f3E;
+        display: flex;
+        justify-content: space-evenly;
+    
+    }
+    /*-----------------------------------lower footer end-----------------------------------------------------------------*/
+    .footer-link{
+       padding-top: 10px;
+    }
+    /*-----------------------------------footer links end-----------------------------------------------------------------*/
+    
+    .downlower-footer{
+        height: 60px;
+        width: 100%;
+        background-color: #232f3E;
+        border-top: 1px solid #445457;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*-----------------------------------downn lower footer end-----------------------------------------------------------------*/
+    .downfooter-logo{
+        height: 40px;
+        width: 100px;
+    }
+    /*-----------------------------------down amazon end-----------------------------------------------------------------*/
+    .footer-country{
+        color:#dddddd; 
+        font-size: 12px; 
+        word-spacing: 8px;    
+    }
+    
+    /*-----------------------------------footer country end-----------------------------------------------------------------*/
+    
+    .lastlower-footer{
+       
+        height:120px;
+        color: #dddddd;
+        width: 100%;
+        font-size: 12px;
+        background-color: #131a22;
+        align-items: center;
+    
+    }
+    /*-----------------------------------lastlower-footer end-----------------------------------------------------------------*/
+    
+    .lastlowerfooter-text{
+        padding-top: 50px;
+        text-align: center;
+      
+    }
+    
+    /*----------------------------------last lower footer-text end-----------------------------------------------------------------*/
+    
+    
+    
+    
+    /* class of write  text on image on absolute position*/
+    .container {
+        position: relative;
+    
+      }
+    
+      .top-left {
+        position: absolute;
+        top: 10px;
+        left: 0px;
+      }
+    
+      .bottom-left{
+        position: absolute;
+        bottom: 10px;
+        left: 0px;
+    
+      }
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------------------------Media Query --425 px for mobile------------*/
+
+
+@media only screen and (max-width:426px){
+
+
+
+    *{
+        margin: 0;
+        font-family: Arial;
+        border:border-box;
+      
+    }
+
+   /* navigation bar  style created*/
+.nav-bar{
+    height: 30px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-ev;
+   
+}
+/* navigation bar logo style created*/
+.nav-logo{
+   
+    height: 25px;
+    width: 64px;
+
+
+}
+ /* navigation bar img tag logo style created*/
+.logo{
+    padding: 2.5px 0px 0px 0px;
+    height: 22.5px;
+    width:59px;   
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/* navigation bar location style created*/
+
+/* navigation bar india location word style created*/
+.India-text{
+   
+    font-size: 7px;
+    font-weight: bold;
+}
+/* navigation bar deliverd to word text style created*/
+.deliverd-text{
+   
+    padding-left: 10px;
+    color: #cccccc;
+    font-size:6px;
+}
+
+
+/*-----------------------------------------------------------------------------*/
+
+/* all over border and hover class style created*/
+.border:hover{
+    border: 1px solid white;
+    border-radius: 2px;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+
+/* navigation class of div to be created for search bar*/
+
+i{
+    font-size: 10px;
+}
+
+
+
+.nav-search{
+    
+    display: flex;
+    background-color:rgb(255, 191, 0);
+    width: 150px;
+    height: 15px;
+    border: 0.25px solid rgb(255, 191, 0);
+    border-radius: 2px;
+    justify-content: space-evenly; /*manage equal space between content */
+}
+
+/* hover effect in search bar*/
+.nav-search:hover {
+    border: 2px solid  rgb(255, 191, 0);
+}
+
+
+/* select bar style for search bar*/
+.select-bar{
+    color: #515151;
+    padding-left: 0px;
+    width: 30px;
+    font-size: 9px;
+    background-color: #e2e2e2;
+    text-align: left;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius:2px;
+    border: none;
+}
+
+
+/*  input type style*/
+.search-input{
+    color: #515151;
+    width: 100%;
+    font-size: 8px;
+    border: none; /* use for remove border */
+}
+
+/* search icon from font awesome style*/
+.search-icon{
+    width: 30px;
+    display:flex;
+    justify-content: center;/* use for align horizontally*/
+    align-items: center;  
+    color: black;
+    font-size: 1.3rem;
+    border: none;
+}
+
+/*-----------------------------------------------------------------------------*/
+
+.hello-font{
+    font-size: 6px;
+    color:white;
+}
+ 
+.account-font{
+    font-size: 7px;
+    font-weight: bold;
+}
+/*-----------------------------------------------------------------------------*/
+.nav-cart i{
+font-size: 15px;
+}
+/*-----------------------------nav bar end----------------------------------------*/
+
+
+/* main panel bar*/
+.panel-bar{
+    background-color: #0c3048;
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    
+    
+    /* menu content of panel bar*/
+    .panel-content{
+    display: flex;
+    align-items: center;
+    font-size: 8px;
+    width: 95%;
+    justify-content: space-evenly;
+    }
+    
+    /* empty area in panel bar*/
+    .penel-empty{
+     width: 5%;
+    }
+    /* icon in panel bar*/
+    .panel-icon{
+        font-size: 9px;
+        font-weight: bold;
+    }
+    
+    /*----------------------------------panel end------------------------------------------------------*/
+    
+    
+/*   body properties*/
+body{
+    background-color: rgb(229, 233, 234);
+    height:800px ;
+    width: 100%;
+    justify-content: center;  
+   
+}
+
+/*---------------------------------------body property end-------------------------------------------------*/
+/* double div class */
+.superhero-section{
+display: flex;
+justify-content: center;
+}
+/*  hero image section*/
+.hero-section{
+    margin-top: 5px;
+    background-size: cover;
+    height: 80px;
+    width:97.5%;
+}
+
+/*-------------------------------------hero section end---------------------------------------------------*/   
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*-----------------------------------------------------*/
+.singlecard-content-style{
+    font-size: 8px; font-weight:bold;
+}
+
+
+  
+.card-linktext-style{
+    color: #007185; font-size: 5px; text-decoration: none;
+}
+/*-----------------------------------------------------*/
+
+.card{
+    margin-top: 5px;
+    background-color: white;
+    height: 150px;
+    width: 23.5%;   
+}
+/*-------------------------------------card creation end---------------------------------------------------*/ 
+
+.card-headtext{
+    height: 10px;
+    width: 90%; 
+    margin-top: 5px;
+    align-items: center;
+    }
+
+.singlecard-image{
+    height: 100px; 
+    width: 92%; 
+    margin-top: 10px;
+}
+
+.card-linktext{
+    height: 10px;
+
+    width: 90%; 
+    display: flex;
+    align-items: center;
+
+}
+ /*-------------------------------------card inner style creation end---------------------------------------------------*/ 
+
+ .singlecard-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+/*-------------------------------------single card type style end--------------------------------------------------*/ 
+
+
+.quardcard-image{
+    height: 40px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+.quardcard-text{
+    width: 44%;
+    margin-bottom:0px;
+    margin-top: 0px;
+    text-align: left;
+
+}
+ 
+.quardcard-linktext{
+height: 10px;
+width: 92%; 
+display: flex;
+align-items: center;
+
+}
+
+
+.column {
+    float: center;
+    width: 36%;
+    padding: 0px 5px 0px 7px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+   
+  }
+
+
+/*------------------------------------quard card type style end--------------------------------------------------*/ 
+
+.one-card{
+    margin-top: 5px;
+    background-color: white;
+    height: 100px;
+    width: 97.5%;  
+}
+
+.onecard-image{
+    height:50px;
+    width:15%;
+    display: flex;
+    align-items: flex-end;
+  
+   
+}
+.onecard-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.onecard-headtext{
+    height: 15px;
+    width: 97.5%; 
+    display: flex;
+    align-items: center;
+}
+
+/*-----------one card image size in parllel(onecard 1)------------------------------------------*/
+
+.columnone {
+    float:left;
+    width: 14%;
+    padding: 0px 10px 0px 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowone::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+
+/*-----------one card image size in parllel(onecard 2 mobile)------------------------------------------*/
+
+.columntwo {
+    float:left;
+    width: 13%;
+    padding: 0px 0px 0px 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowtwo::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+
+.mobile-image-width{
+    width: 100%;
+}
+
+
+/*------------------------------------one card style end--------------------------------------------------------*/ 
+.offer-label{
+    color: #ffffff; 
+    font-size: 5px; 
+    text-decoration: none; 
+    border: 0px solid rgb(228, 11, 11); 
+    background-color: rgb(228, 11, 11);
+    border-radius: 1px;    
+}
+
+/* class of write  text on image on absolute position*/
+.container {
+    position: relative;
+
+  }
+
+  .bottom-left{
+    position: absolute;
+   bottom:10px;
+   left: 0px;
+
+  }
+
+/*------------------------------------offer lable style end--------------------------------------------------------*/ 
+
+
+.ads-seciton{
+    margin-top: 5px;
+    display: flex;
+justify-content: center;
+}
+.minitv{
+height: 90px;
+width: 80%;
+}
+
+/*-----------------------------------ads section end-----------------------------------------------------------------*/
+
+.columnthree {
+    float:left;
+    width: 14%;
+    padding: 0px 0px 0px 10px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .rowthree::after {
+    content: "";
+    clear: both;
+    display: table;  
+  }
+
+/*-----------------------------------one card resize image of last card (make creative)end-----------------------------------------------------------------*/
+
+
+.upper-footer{
+    margin-top: 5px;
+    height: 20px;
+    color: white;
+    width: 100%;
+    display: flex;
+    font-size: 6px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(51, 73, 80);
+}
+/*-----------------------------------upper footer end-----------------------------------------------------------------*/
+
+.lowerfooter-headtext{
+    font-weight: bold; color: white; font-size: 7px;
+
+}
+
+/*-----------------------------------lowerfooter-headtext end-----------------------------------------------------------------*/
+
+
+.lower-footer{
+
+    padding-top: 20px;
+    height: 180px;
+    width: 100%;
+    font-size: 6px;
+    color: #dddddd;
+    background-color: #232f3E;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/*-----------------------------------lower footer end-----------------------------------------------------------------*/
+.footer-link{
+   padding-top: 10px;
+}
+/*-----------------------------------footer links end-----------------------------------------------------------------*/
+
+
+.downlower-footer{
+    height: 20px;
+    width: 100%;
+    background-color: #232f3E;
+    border-top: 1px solid #445457;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*-----------------------------------downn lower footer end-----------------------------------------------------------------*/
+.downfooter-logo{
+    height: 20px;
+    width: 50px;
+}
+/*-----------------------------------down amazon end-----------------------------------------------------------------*/
+.footer-country{
+    color:#dddddd; 
+    font-size: 4px; 
+    word-spacing: 5px;    
+}
+
+/*-----------------------------------footer country end-----------------------------------------------------------------*/
+
+.lastlower-footer{
+   
+    height:50px;
+    color: #dddddd;
+    width: 100%;
+    font-size: 6px;
+    background-color: #131a22;
+    align-items: center;
+
+}
+/*-----------------------------------lastlower-footer end-----------------------------------------------------------------*/
+
+.lastlowerfooter-text{
+    padding-top: 15px;
+    text-align: center;
+  
+}
+
+/*----------------------------------last lower footer-text end-----------------------------------------------------------------*/
+
+}
+
+
+/*-------------------------------------------------media querry end for the size of 425 px(mobile)------------------------------*/
+
+
+
+
+
+
+
+
